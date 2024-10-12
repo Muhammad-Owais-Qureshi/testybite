@@ -9,8 +9,8 @@ const Footer = () => {
             <section className="flex flex-col w-48 mr-24 items-center justify-center">
 
               <h1 className="text-2xl font-semibold">Testy</h1>
-              <p className="text-slate-700">"On the Other Hand we denounce with righteous indignation and dislike man who are so beguiled 
-                and demoralized by the charms of pleasure of the moment"</p>
+              <p className="text-slate-700">On the Other Hand we denounce with righteous indignation and dislike man who are so beguiled 
+                and demoralized by the charms of pleasure of the moment</p>
             </section>
 
             <section className="flex flex-col w-48 items-center justify-center ml-16">

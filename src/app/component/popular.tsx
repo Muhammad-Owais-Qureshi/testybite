@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Heading from './heading'
 import { headingProps } from '@/types/componentProps'
 
 const Popular = (props:headingProps) => {
