@@ -9,7 +9,7 @@ const Popular = (props:headingProps) => {
         {props.head}
         </h1>
          
-    <div className="grid grid-cols-3 gap-28 w-[60%] sm:flex sm:flex-row sm:justify-between sm:gap-2">
+    <div className="grid grid-cols-3 gap-28 w-[60%] sm:grid sm:grid-cols-5 sm:gap-14 sm:w-[80%] md:grid md:grid-cols-6 md:gap-10 md:w-[100%]">
 
          <div className="w-48">
          <Image
