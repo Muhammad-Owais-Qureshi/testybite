@@ -9,12 +9,12 @@ import Latest from './component/latest'
 
 const Home = () => {
   return (
-    <div className="my-5 mx-5">
+    <div className="my-5 mx-3">
       <Hero/>
       <Card/>
       <Smothcard/>
       <Popular head = "Popular Categories"/>
-      <Mailbox text="Testy food to your Inbox" text2=" Enjoy weekly hand picked reciepe and recommendation" text3="Join"/>
+      <Mailbox text="Delicousness to your Inbox" text2=" Enjoy weekly hand picked reciepe and recommendation" text3="Join"/>
       <Handpick/>
       <Latest/>
 

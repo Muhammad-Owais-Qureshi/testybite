@@ -5,16 +5,16 @@ import { FaYoutube } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div>
-        <footer className="bg-orange-300 h-96 my-4 flex justify-center items-center ">
-            <section className="flex flex-col w-48 mr-24 items-center justify-center">
+        <footer className="bg-slate-300 h-auto my-4 ">
+            <section className="w-[100%]">
 
-              <h1 className="text-2xl font-semibold">Testy</h1>
-              <p className="text-slate-700">On the Other Hand we denounce with righteous indignation and dislike man who are so beguiled 
+              <h1 className="text-3xl font-semibold pb-3 pl-2 italic pt-2">Testy</h1>
+              <p className="text-slate-700 pl-2">On the Other Hand we denounce with righteous indignation and dislike man who are so beguiled 
                 and demoralized by the charms of pleasure of the moment</p>
             </section>
 
-            <section className="flex flex-col w-48 items-center justify-center ml-16">
-              <ul className="mb-16">
+            <section className="mt-2 w-[100%] pl-2 flex justify-center">
+              <ul className="pb-16">
                 <li><h3 className="font-semibold">Tastbite</h3></li>
                 <li>About</li>
                 <li>Contact Us</li>
@@ -23,8 +23,8 @@ const Footer = () => {
               </ul>
             </section>
 
-            <section className="flex flex-col w-48 items-center justify-center ">
-              <ul className="mb-16">
+            <section className="mt-2 w-[100%] pl-2 flex justify-center">
+              <ul className="pb-16">
                 <li><h3 className="font-semibold">Legal</h3></li>
                 <li>Terms</li>
                 <li>Conditions</li>
@@ -33,7 +33,7 @@ const Footer = () => {
               </ul>
             </section>
 
-            <section className="flex flex-col w-48 items-center justify-center">
+            {/* <section className="mt-2 w-[100%] pl-2 flex justify-center">
               <ul className="mb-16">
                 <li><h3 className="font-semibold">Follow</h3></li>
                 <li>Facebook</li>
@@ -41,11 +41,11 @@ const Footer = () => {
                 <li>Instagaram</li>
                 <li>Youtube</li>
               </ul>
-            </section>
+            </section> */}
            
-            <section className="flex flex-col mb-64 ml-6 mt-32 items-center justify-center">
-              <p className="ml-6">2024 Testbite - All right reserved</p>
-              <div className="flex gap-5 ml-6 mt-3">
+            <section className="mt-2 w-[100%] pl-2 grid grid-cols-2">
+              <p className="">2024 Testybite - All right reserved</p>
+              <div className="flex justify-between mt-2">
               <FaFacebook/>
               <FaTwitter />
               <AiFillInstagram />

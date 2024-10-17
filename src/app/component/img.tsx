@@ -11,7 +11,7 @@ interface MyImageProps {
  
 const Img:React.FC<MyImageProps> = ({src,alt,width,height}) => {
   return (
-    <div className=" gol hover:scale-110 ">
+    <div className="gol">
         <Image
         src={src}
         alt={alt}

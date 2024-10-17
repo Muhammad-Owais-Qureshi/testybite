@@ -1,16 +1,16 @@
-import React from 'react'
+"use client"
 import Image from 'next/image'
 import Heading from './heading';
 import { RiStarSFill } from "react-icons/ri";
 const Card = () => {
   return (
     <div>
-       <h1 className="text-4xl font-semibold my-5 font-serif"><Heading head = "Super Delicious"/></h1>
+       <h1 className="text-xl font-semibold my-5 sm:text-4xl "><Heading head = "Super Delicious"/></h1>
       
-        <div className="flex justify-between xs:grid grid-cols-3 gap-4">
+        <div className="flex justify-between gap-4">
         <div>
             <Image
-            className="h-[300px] w-[400px]"
+            className="h-40 lg:h-[300px] lg:w-[400px]"
             src={"/image/noodels.jpg"}
             alt='noodels'
             width={300}
@@ -28,7 +28,7 @@ const Card = () => {
 
               <div>
             <Image
-            className="h-[300px] w-[400px]"
+            className="h-40 lg:h-[300px] lg:w-[400px]"
             src={"/image/donut.jpg"}
             alt='donut'
             width={300}
@@ -47,7 +47,7 @@ const Card = () => {
 
               <div>
             <Image
-            className="h-[300px] w-[400px]"
+            className="h-40 lg:h-[300px] lg:w-[400px]"
             src={"/image/burger.jpg"}
             alt='burger'
             width={300}

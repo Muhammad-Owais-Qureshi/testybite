@@ -9,72 +9,72 @@ const Popular = (props:headingProps) => {
         {props.head}
         </h1>
          
-    <div className="flex flex-row justify-between">
+    <div className="grid grid-cols-3 gap-28 w-[60%] sm:flex sm:flex-row sm:justify-between sm:gap-2">
 
          <div className="w-48">
          <Image
-           className="round h-[150px] w-[200px]"
+           className="round h-[100px] w-[100px]"
            src={"/image/pasta.jpg"}
            alt='noodels'
            width={300}
            height={200}
         />
-        <p className="mt-3 font-semibold text-center">Pasta</p>
+        <p className="mt-3 mr-20 font-semibold text-center">Pasta</p>
         
          </div>
          <div className="w-48">
          <Image
-           className="round h-[150px] w-[200px]"
+           className="round h-[100px] w-[100px]"
            src={"/image/pizza.jpg"}
            alt='noodels'
            width={300}
            height={200}
         />
-        <p className="mt-3 font-semibold text-center">Pizza</p>
+        <p className="mt-3 mr-20 font-semibold text-center">Pizza</p>
          </div>
 
          <div className="w-48">
          <Image
-           className="round h-[150px] w-[200px]"
+           className="round h-[100px] w-[100px]"
            src={"/image/vegan.jpg"}
            alt='noodels'
            width={300}
            height={200}
         />
-        <p className="mt-3 font-semibold text-center">Vagan</p>
+        <p className="mt-3 mr-20 font-semibold text-center">Vagan</p>
 
          </div>
          <div className="w-48">
          <Image
-           className="round h-[150px] w-[200px]"
+           className="round h-[100px] w-[100px]"
            src={"/image/dessert.jpg"}
            alt='noodels'
            width={300}
            height={200}
         />
-        <p className="mt-3 font-semibold text-center">Desserts</p>
+        <p className="mt-3 mr-20 font-semibold text-center">Desserts</p>
 
          </div>
          <div className="w-48">
          <Image
-           className="round h-[150px] w-[200px]"
+           className="round h-[100px] w-[100px]"
            src={"/image/smoote.jpg"}
            alt='noodels'
            width={300}
            height={200}
         />
-        <p className="mt-3 font-semibold text-center">Smoothies</p>
+        <p className="mt-3 mr-20 font-semibold text-center">Smoothies</p>
 
          </div>
          <div className="w-48">
          <Image
-           className="round h-[150px] w-[200px]"
+           className="round h-[100px] w-[100px]"
            src={"/image/breakfast.jpg"}
            alt='noodels'
            width={300}
            height={200}
         />
-        <p className="mt-3 font-semibold text-center">Breakfast</p>
+        <p className="mt-3 mr-20 font-semibold text-center">Breakfast</p>
 
          </div>
      </div>
