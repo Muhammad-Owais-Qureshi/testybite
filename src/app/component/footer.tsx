@@ -5,16 +5,16 @@ import { FaYoutube } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div>
-        <footer className="bg-slate-300 h-auto my-4 ">
-            <section className="w-[100%]">
+        <footer className="bg-slate-300 h-auto my-4 md:grid md:grid-cols-4 sm:grid sm:grid-cols-3 w-auto">
+            <section>
 
               <h1 className="text-3xl font-semibold pb-3 pl-2 italic pt-2 text-slate-900">Testy</h1>
               <p className="text-slate-900 pl-2">On the Other Hand we denounce with righteous indignation and dislike man who are so beguiled 
                 and demoralized by the charms of pleasure of the moment</p>
             </section>
 
-            <section className="mt-2 w-[100%] pl-2 flex justify-center">
-              <ul className="pb-16">
+            <section className="pt-2 pl-2 flex justify-center">
+              <ul className="pb-16 text-slate-900">
                 <li><h3 className="font-semibold text-slate-900 ">Tastbite</h3></li>
                 <li>About</li>
                 <li>Contact Us</li>
@@ -23,7 +23,7 @@ const Footer = () => {
               </ul>
             </section>
 
-            <section className="mt-2 w-[100%] pl-2 flex justify-center">
+            <section className="pt-2 pl-2 flex justify-center">
               <ul className="pb-16 text-slate-900">
                 <li><h3 className="font-semibold">Legal</h3></li>
                 <li>Terms</li>
@@ -43,8 +43,8 @@ const Footer = () => {
               </ul>
             </section> */}
            
-            <section className="mt-2 w-[100%] pl-2 grid grid-cols-2">
-              <p className="">2024 Testybite - All right reserved</p>
+            <section className="pt-2 pl-2 grid grid-cols-2">
+              <p>2024 Testybite All right reserved</p>
               <div className="flex justify-between mt-2 text-slate-900">
               <FaFacebook/>
               <FaTwitter />

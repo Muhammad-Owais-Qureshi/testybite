@@ -6,10 +6,10 @@ const Categorie = (props:headingProps) => {
     <div>
         <Popular head="Product"/>
         <h1 className="text-4xl font-semibold my-5 font-serif">{props.head}</h1>
-    <main className="flex flex-row justify-between mt-4">
+    <main className="grid grid-cols-3 w-[100%] sm:gap-14 sm:grid-cols-3 sm:w-[100%] md:grid md:grid-cols-6 md:w-[100%]">
         <div>
         <Image
-        className="round h-[150px] w-[200px]"
+        className="round h-[100px] xs:w-32 sm:w-40 md:w-28 lg:w-36"
         src={"/image/berry cake.jpg"}
         alt="cake"
         width={200}
@@ -19,7 +19,7 @@ const Categorie = (props:headingProps) => {
         </div>
         <div className="">
          <Image
-           className="round h-[150px] w-[200px]"
+           className="round h-[100px] xs:w-32 sm:w-40 md:w-28 lg:w-36"
            src={"/image/biscuit.jpg"}
            alt='biscuit'
            width={300}
@@ -29,7 +29,7 @@ const Categorie = (props:headingProps) => {
          </div>
         <div className="">
          <Image
-           className="round h-[150px] w-[200px]"
+           className="round h-[100px] xs:w-32 sm:w-40 md:w-28 lg:w-36"
            src={"/image/salmon.jpg"}
            alt='salmon'
            width={300}
@@ -39,7 +39,7 @@ const Categorie = (props:headingProps) => {
          </div>
         <div className="">
          <Image
-           className="round h-[150px] w-[200px]"
+           className="round h-[100px] xs:w-32 sm:w-40 md:w-28 lg:w-36"
            src={"/image/burger.jpg"}
            alt='burger'
            width={300}
@@ -49,7 +49,7 @@ const Categorie = (props:headingProps) => {
          </div>
         <div className="">
          <Image
-           className="round h-[150px] w-[200px]"
+           className="round h-[100px] xs:w-32 sm:w-40 md:w-28 lg:w-36"
            src={"/image/rice.jpg"}
            alt='rice'
            width={300}
@@ -59,7 +59,7 @@ const Categorie = (props:headingProps) => {
          </div>
         <div className="">
          <Image
-           className="round h-[150px] w-[200px]"
+           className="round h-[100px] xs:w-32 sm:w-40 md:w-28 lg:w-36"
            src={"/image/strawberry.jpg"}
            alt='strawberry'
            width={300}

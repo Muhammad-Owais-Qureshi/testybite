@@ -3,15 +3,21 @@ import Link from 'next/link'
 import NavSlider from './navSlider';
 import { RxHamburgerMenu , RxCross2 } from "react-icons/rx";
 import { useState } from 'react';
+import Image from 'next/image';
 
 const Header:React.FC = () => {
   const [nav, setNav] = useState<boolean>(false)
 
   return (
-    <header className="font-semibold w-auto bg-white sm:sticky sm:top-0 sm:z-10 sm:flex justify-between items-center 
+    <header className="font-semibold w-auto bg-white sm:sticky sm:top-0 sm:z-10 sm:flex sm:justify-between sm:items-center 
                        sm:text-xl sm:font-semibold
-                       sm:w-[100%] sm:opacity-75 h-14 ">
-      <h1 className="pt-1 text-2xl text-black cursor-pointer ml-10 font-extrabold italic">Testybite</h1>
+                       sm:w-[100%] sm:opacity-75 h-auto ">
+            <Image className="pt-1 cursor-pointer ml-10 w-36"
+                    src={"/image/logo2.png"}
+                    alt='logo'
+                    width={200}
+                    height={200}
+      />
         <nav>
             <ul className=" sm:flex justify-between items-center sm:gap-5 sm:mr-14">
 

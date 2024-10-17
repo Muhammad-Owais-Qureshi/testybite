@@ -6,7 +6,7 @@ import Link from 'next/link'
 const NavSlider= () => {
  
   return (
-    <div className="text-orange w-[90%] bg-white">
+    <div className="text-orange w-[100%] bg-white text-slate-900">
         <nav>
             <ul className="ml-10">
                 <Link className="p-1 hover:text-black sm:hidden" href={"/"}><li>Home</li></Link>
