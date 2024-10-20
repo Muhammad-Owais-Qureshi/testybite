@@ -11,7 +11,7 @@ const Popular = (props:headingProps) => {
          
     <div className="grid grid-cols-3 w-[100%] sm:grid sm:grid-cols-3 sm:w-[100%] md:grid md:grid-cols-6 lg:gap-1 md:w-[100%]">
 
-         <div className="w-48">
+         <div className="w-13">
          <Image
            className="round h-[100px] xs:w-32 sm:w-40 md:w-28 lg:w-36"
            src={"/image/pasta.jpg"}
@@ -22,7 +22,7 @@ const Popular = (props:headingProps) => {
         <p className="mt-3 pr-10 font-semibold text-center">Pasta</p>
         
          </div>
-         <div className="w-48">
+         <div className="w-13">
          <Image
            className="round h-[100px] xs:w-32 sm:w-40  w-40 md:w-28 lg:w-36"
            src={"/image/pizza.jpg"}
@@ -33,7 +33,7 @@ const Popular = (props:headingProps) => {
         <p className="mt-3 pr-10 font-semibold text-center">Pizza</p>
          </div>
 
-         <div className="w-48">
+         <div className="w-13">
          <Image
            className="round h-[100px] xs:w-32 sm:w-40 md:w-28 lg:w-36"
            src={"/image/vegan.jpg"}
@@ -44,7 +44,7 @@ const Popular = (props:headingProps) => {
         <p className="mt-3 pr-10 font-semibold text-center">Vagan</p>
 
          </div>
-         <div className="w-48">
+         <div className="w-13">
          <Image
            className="round h-[100px] xs:w-32 sm:w-40 md:w-28 lg:w-36"
            src={"/image/dessert.jpg"}
@@ -55,7 +55,7 @@ const Popular = (props:headingProps) => {
         <p className="mt-3 pr-10 font-semibold text-center">Desserts</p>
 
          </div>
-         <div className="w-48">
+         <div className="w-13">
          <Image
            className="round h-[100px] xs:w-32 sm:w-40  md:w-28 lg:w-36"
            src={"/image/smoote.jpg"}
@@ -66,7 +66,7 @@ const Popular = (props:headingProps) => {
         <p className="mt-3 pr-10 font-semibold text-center md:pl-10">Smoothies</p>
 
          </div>
-         <div className="w-48">
+         <div className="w-13">
          <Image
            className="round h-[100px] xs:w-32 sm:w-40  md:w-28 lg:w-36"
            src={"/image/breakfast.jpg"}

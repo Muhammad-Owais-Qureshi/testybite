@@ -12,7 +12,7 @@ const Header:React.FC = () => {
     <header className="font-semibold w-auto bg-white sm:sticky sm:top-0 sm:z-10 sm:flex sm:justify-between sm:items-center 
                        sm:text-xl sm:font-semibold
                        sm:w-[100%] sm:opacity-75 h-auto ">
-            <Image className="pt-1 cursor-pointer ml-10 w-36"
+            <Image className="pt-1 cursor-pointer mr-6 w-36"
                     src={"/image/logo2.png"}
                     alt='logo'
                     width={200}
