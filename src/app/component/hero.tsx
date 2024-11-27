@@ -3,7 +3,7 @@ import Image from 'next/image'
  
 const Hero = () => {
   return (
-    <div className="w-[100%] h-auto mx-2 md:flex justify-between sm:mt-2 sm:mx-4">
+    <div className="w-[100%] h-auto md:flex justify-between sm:mt-2 sm:mx-4">
         
       
         <Image
