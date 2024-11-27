@@ -33,24 +33,15 @@ const Footer = () => {
               </ul>
             </section>
 
-            {/* <section className="mt-2 w-[100%] pl-2 flex justify-center">
-              <ul className="mb-16">
-                <li><h3 className="font-semibold">Follow</h3></li>
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>Instagaram</li>
-                <li>Youtube</li>
-              </ul>
-            </section> */}
            
-            <section className="pt-2 pl-2 flex flex-col-reverse">
-              <p className="text-center">2024 Testybite All right reserved</p>
+            <section className="pt-2 pl-2 flex flex-col">
               <div className="flex justify-around mt-2 text-slate-900">
               <FaFacebook/>
               <FaTwitter />
               <AiFillInstagram />
               <FaYoutube />
-              </div>
+              </div >
+              <div className="md:pt-10">  <p className="text-center">2024 Testybite All right reserved</p></div>
             </section>
         </footer>
     </div>
